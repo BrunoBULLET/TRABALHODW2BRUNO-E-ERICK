@@ -92,6 +92,7 @@ const FormularioDespesa = ({ aoSalvar, despesaParaEditar, aoCancelar }) => {
           onChange={(e) => setValor(e.target.value)} // atualiza estado
           required
           className="border p-1 ml-2"
+          min={0}
         />
       </div>
 
